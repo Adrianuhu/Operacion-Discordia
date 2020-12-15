@@ -1,0 +1,159 @@
+.buttons {
+    border: none;
+}
+
+.newMsgBtn {
+    text-align: center;
+    position: sticky;
+    background-color: #5c5a81;
+    border: rgb(151, 156, 168) thin solid;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.newMsgBtn:hover {
+    background-color: rgb(123, 182, 138);
+    border: rgb(13, 13, 14) thin solid;
+    color: black;
+}
+
+.tab {
+    text-align: center;
+    position: sticky;
+    background-color: #5c5a81;
+    float: left;
+    border: rgb(151, 156, 168) thin solid;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    transition: 0.3s;
+}
+
+.tab:hover {
+    background-color: rgb(151, 156, 168);
+    border: rgb(13, 13, 14) thin solid;
+    color: black;
+}
+
+.contacts {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: 80%;
+    overflow: scroll;
+}
+
+.contacts::-webkit-scrollbar {
+    width: 0px;
+}
+
+.person {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.person2 {
+    cursor: pointer;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-decoration: none;
+    align-self: center;
+    background-color: rgb(32, 33, 36);
+    color: white;
+    transition: transform .2s;
+    height: calc(15%);
+    border: none;
+    display: flex;
+}
+
+.person:hover {
+    transform: scale(1.1);
+}
+
+.rest {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.friendName {
+    display: flex;
+    width: calc(90%-0.05em);
+    padding-left: 0.5em;
+    height: 100%;
+}
+
+.userPerSpa {
+    z-index: 2;
+    background-color: #232329;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.userPerSpa>div {
+    float: left;
+}
+
+.data,
+.usrName {
+    width: 100%;
+}
+
+.usrSpaBtn {
+    width: 100%;
+    cursor: pointer;
+    background-color: #5c5a81;
+    border: rgb(151, 156, 168) thin solid;
+}
+
+.usrSpaBtn:hover {
+    color: black;
+    background-color: white;
+}
+
+.profPict {
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: white thin solid;
+}
+
+.notView {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #ff0000;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.ac,
+.dec {
+    width: 45%;
+    cursor: pointer;
+}
+
+.dec {
+    margin-left: auto;
+}

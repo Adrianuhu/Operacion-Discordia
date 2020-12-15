@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(32, 33, 36);
+    color: white;
+}
+
+form {
+    background-color: rgb(59, 62, 68);
+}
+
+input[type=text],
+input[type=password],
+select[name=gender] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5c5a81;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}

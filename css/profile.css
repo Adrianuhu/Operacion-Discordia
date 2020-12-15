@@ -1,0 +1,68 @@
+.container>input[type=text],
+.container>select[name=gender],
+.container>textarea[name=description],
+.container>div.profFrie {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[name="myfile"] {
+    display: none;
+}
+
+.uploadProfPic {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.uploadProfPic:hover {
+    opacity: 0.8;
+}
+
+.container>button {
+    background-color: #5c5a81;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.imgcontainer {
+    display: flex;
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.imgcontainer>img.profPict {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: white thin solid;
+}

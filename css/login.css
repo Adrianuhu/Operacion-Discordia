@@ -1,0 +1,81 @@
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.companyNameLog {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.containerLog {
+    background-color: rgb(59, 62, 68);
+    border: 1px solid black;
+    border-radius: 2.5em;
+    padding: 2.5em;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+}
+
+#user,
+#password {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.singIn,
+.btn {
+    background-color: #5c5a81;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2.5em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.singIn {
+    width: auto;
+    background-color: #239736;
+}
+
+.log {
+    padding: 16px;
+    clear: left;
+}
+
+span.password {
+    float: right;
+    padding-top: 16px;
+}
+
+.linkT {
+    text-decoration: none;
+}
+
+.image {
+    background-image: url(../images/logoDiscordia.png);
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+#login p {
+    color: red;
+}

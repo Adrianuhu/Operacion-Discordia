@@ -1,0 +1,104 @@
+.searchBar {
+    border: 1px solid black;
+    border-radius: 2.5em;
+    padding: 2.5em;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    background-color: rgb(101, 101, 102);
+}
+
+#textMessage {
+    resize: none;
+}
+
+.userSendTo {
+    border-top-right-radius: 2.5em;
+    border-top-left-radius: 2.5em;
+    position: absolute;
+    top: 0px;
+    border: rgb(151, 156, 168) thin solid;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgb(101, 101, 102);
+}
+
+.userSendTo .profPict {
+    width: 40px;
+    height: 40px;
+}
+
+.text {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+}
+
+.text::-webkit-scrollbar {
+    width: 0px;
+}
+
+.msgR {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    align-self: center;
+    background-color: rgb(32, 33, 36);
+    transition: transform .2s;
+    height: calc(15%);
+    width: 100%;
+    border: lightgray thin dotted;
+}
+
+.content {
+    display: flex;
+    width: calc(90%-1em);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: 100%;
+}
+
+.chtBot {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.txtMsj {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.msgBar {
+    color: white;
+    border: none;
+    width: 90%;
+    background-color: rgb(101, 101, 102);
+    height: 25px;
+}
+
+.msgBar:focus {
+    border: none;
+    background-color: rgb(101, 101, 102);
+}
+
+.sendBtn {
+    color: white;
+    border: none;
+    background-color: rgb(101, 101, 102);
+    cursor: pointer;
+    height: 25px;
+}
+
+.sendBtn:hover {
+    background-color: rgb(125, 125, 128);
+}
+
+input[name="pepe"] {
+    display: none;
+}
